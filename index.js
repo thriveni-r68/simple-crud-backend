@@ -37,5 +37,5 @@ app.delete("/items/:id", (req, res) => {
 });
 
 // Start the server
-const PORT = 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+const PORT = 8000;
+app.listen(PORT, () => console.log(`Server running Successfully on port ${PORT}`));
